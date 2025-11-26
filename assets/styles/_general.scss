@@ -5,16 +5,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  font-family: var(--font-semibold);
+  font-family: var(--font-fixel);
   font-size: vw(16);
   line-height: 116%;
-  color: var(--c-white);
-  background: var(--c-black);
+  color: var(--c-black);
 	min-height: 100vh;
+	text-transform: uppercase;
 }
 ::selection {
-  background: var(--c-black);
-  color: var(--c-white);
+  background: var(--c-white);
+  color: var(--c-black);
 }
 
 body {
@@ -34,7 +34,7 @@ a {
     cursor: pointer;
   }
 }
-.inner-img, .inner-video {
+.inner-media {
   position: absolute;
   top: 0;
   left: 0;

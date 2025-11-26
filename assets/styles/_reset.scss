@@ -1,8 +1,6 @@
-*,
-*:after,
-*:before {
-  padding: 0;
+* {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -137,6 +135,24 @@ img {
   pointer-events: none;
 }
 
+*,
+*:after,
+*:before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button,
+a {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:disabled {
+  pointer-events: none;
+}
+
 input,
 textarea {
   border-radius: 0;
@@ -147,24 +163,11 @@ textarea {
   resize: none;
 }
 
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active {
-  transition: background-color 5000s ease-in-out 0s;
-  -webkit-text-fill-color: #e8e8e8 !important;
-  box-shadow: 0 0 0 62.5rem #020202 inset !important;
-}
-
 button,
 a {
   all: unset;
   -webkit-tap-highlight-color: transparent;
   cursor: pointer;
-}
-
-button:disabled {
-  pointer-events: none;
 }
 
 a:focus-visible,
