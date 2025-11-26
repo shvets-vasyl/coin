@@ -9,7 +9,7 @@
 
 <script setup lang='ts'>
 import IconSocIG from '@/components/icon/SocIG.vue'
-import IconSocTG from '@/components/icon/SocTg.vue'
+import IconSocTG from '@/components/icon/SocTG.vue'
 import IconSocFB from '@/components/icon/SocFB.vue'
 
 const socials = [
