@@ -1,0 +1,30 @@
+@use "./utils" as *;
+
+// viewport
+
+:root {
+  --viewport: 1440;
+
+  @include mobile {
+    --viewport: 375;
+  }
+}
+
+// fonts
+
+:root {
+  --font-semibold: "Semibold";
+}
+
+// transitions
+
+:root {
+	--t-ease: cubic-bezier(0.83, 0, 0.17, 1);
+}
+
+// colors
+
+:root {
+  --c-black: #000000;
+  --c-white: #ffffff;
+}

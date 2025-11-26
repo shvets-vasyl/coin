@@ -1,0 +1,9 @@
+@use "./utils" as *;
+.hover-fade {
+	transition: opacity .5s ease;
+}
+@include hover {
+	.hover-fade:hover {
+		opacity: 0.5;
+	}
+}

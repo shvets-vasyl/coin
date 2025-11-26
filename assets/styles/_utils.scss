@@ -1,0 +1,24 @@
+@function vw($size) {
+  @return calc($size / var(--viewport) * 100vw);
+}
+
+@mixin mobile() {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+@mixin desktop() {
+  @media (min-width: 1025px) {
+    @content;
+  }
+}
+
+@mixin hover() {
+  @media (hover: hover) {
+    @content;
+  }
+}
+
+@mixin ticker($time) {
+  animation: ticker $time linear infinite;
+}
