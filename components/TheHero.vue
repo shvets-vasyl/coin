@@ -8,6 +8,8 @@
 				<TheButton text="Обміняти валюту" />
 			</a>
 		</div>
+
+		<img class='scroll-img' draggable='false'  src='/images/scroll.png' />
 	</section>
 </template>
 
@@ -46,4 +48,10 @@
 	width: 100%;
 }
 
+.scroll-img {
+	position: absolute;
+	bottom: 2rem;
+	left: 4rem;
+	width: 2.5rem;
+}
 </style>
