@@ -16,6 +16,12 @@
 	font-family: var(--f-fixel);
 	font-size: .75rem;
 	line-height: 124%;
+	@include mobile {
+		flex-direction: column;
+		gap: 1.25rem;
+		align-items: center;
+		padding-bottom: 8rem;
+	}
 }
 .footer span {
 	opacity: 0.6;

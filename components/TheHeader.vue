@@ -4,7 +4,8 @@
 			<img draggable='false' src='/images/logo.png' />
 		</div>
 		<a class="btn" href="https://t.me/CoinCast_Exchenge" target="_blank">
-			<TheButton text="зв'язатися з нами" />
+			<TheButton class="desk" text="зв'язатися з нами" />
+			<TheButton class="mob" text="зв'язатися" />
 		</a>
 	</div>
 </template>
@@ -24,6 +25,9 @@
 	padding: 1.5rem 4rem;
 	z-index: 10;
 	pointer-events: none;
+	@include mobile {
+		padding: 1rem;
+	}
 }
 .btn {
 	pointer-events: auto;
@@ -32,6 +36,9 @@
 
 .logo {
 	width: 10rem;
+	@include mobile {
+		width: 6.625rem;
+	}
 }
 .logo img {
 	width: 100%;

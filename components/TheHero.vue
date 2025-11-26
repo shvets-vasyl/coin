@@ -34,10 +34,18 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	z-index: 2;
+
+	@include mobile {
+		width: 100%;
+	}
 }
 
 .coins {
 	width: 13.9375rem;
+	@include mobile {
+		width: 8.75rem;
+	}
 }
 .title {
 	font-size: 3.5rem;
@@ -46,6 +54,11 @@
 	font-family: var(--f-dela);
 	margin-bottom: 2.5rem;
 	width: 100%;
+	@include mobile {
+		font-size: 2rem;
+		letter-spacing: -0.02rem;
+		margin-bottom: 2rem;
+	}
 }
 
 .scroll-img {
@@ -53,5 +66,11 @@
 	bottom: 2rem;
 	left: 4rem;
 	width: 2.5rem;
+	@include mobile {
+		width: 2rem;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 7.5rem;
+	}
 }
 </style>

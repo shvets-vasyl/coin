@@ -48,6 +48,9 @@ const items = [
 <style scoped lang='scss'>
 .services {
 	padding: 13.6875rem 12.125rem 8rem;
+	@include mobile {
+		padding: 3rem 1rem 4rem;
+	}
 }
 .title {
 	font-size: 2.75rem;
@@ -56,12 +59,22 @@ const items = [
 	font-family: var(--f-dela);
 	margin-bottom: 3.1875rem;
 	text-align: center;
+	@include mobile {
+		font-size: 2rem;
+		margin-bottom: 2.625rem;
+		padding-left: 1.25rem;
+		padding-right: 1.25rem;
+	}
 }
 .items {
 	display: flex;
 	flex-wrap: wrap;;
 	justify-content: center;
 	gap: 1rem;
+	@include mobile {
+		flex-direction: column;
+		gap: 1.25rem;
+	}
 }
 .item {
 	width: 21.25rem;
@@ -74,6 +87,10 @@ const items = [
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	@include mobile {
+		width: 100%;
+		border-radius: .5rem;
+	}
 }
 .item-photo {
 	position: relative;

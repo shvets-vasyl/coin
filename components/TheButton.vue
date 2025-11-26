@@ -24,6 +24,10 @@ defineProps<{ text: string }>()
 	font-family: var(--f-dela);
 	position: relative;
 	transition: all .4s var(--t-ease);
+	@include mobile {
+		font-size: .875rem;
+		padding: .75rem 1.5rem;
+	}
 }
 .bg {
 	position: absolute;
