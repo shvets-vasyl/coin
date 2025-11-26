@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       charset: "utf-8",
-      title: "COIN",
+      title: "CoinCast",
       htmlAttrs: {
         lang: "en",
       },
@@ -26,7 +26,7 @@ export default defineNuxtConfig({
         {
           name: "description",
           content:
-            "COIN",
+            "Обмін криптовалют та швидкі міжнародні перекази USDT / BTC / ETH / LTC | Швидко, вигідно, надійно",
         },
         {
           name: "viewport",
@@ -55,24 +55,20 @@ export default defineNuxtConfig({
         },
 				{
           property: "og:image",
-          content: "/og.png",
+          content: "/images/og.png",
         },
         {
           property: "og:description",
           content:
-            "COIN",
+            "Обмін криптовалют та швидкі міжнародні перекази USDT / BTC / ETH / LTC | Швидко, вигідно, надійно",
         },
         {
           property: "og:title",
-          content: "COIN",
+          content: "CoinCast",
         },
         {
           property: "og:site_name",
-          content: "COIN",
-        },
-        {
-          property: "og:type",
-          content: "COIN",
+          content: "CoinCast",
         },
         {
           name: "color-scheme",
