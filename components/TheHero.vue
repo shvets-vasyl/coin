@@ -18,6 +18,7 @@
 </script>
 
 <style scoped lang='scss'>
+
 .hero {
 	height: 100vh;
 	position: relative;
