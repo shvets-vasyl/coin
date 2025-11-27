@@ -75,7 +75,7 @@ export default defineNuxtConfig({
           content: "light dark",
         },
       ],
-      // link: [{ rel: "icon", type: "image/png", href: "/fav_2.png" }],
+      link: [{ rel: "icon", type: "image/png", href: "/fav.png" }],
     },
   },
 
